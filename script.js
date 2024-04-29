@@ -52,5 +52,5 @@ decrementBtnn.addEventListener('click',decrementcounter)
 const hello = document.querySelector("#hello");
 
 hello.addEventListener('click',()=>{
-alert("hello world");
+window.alert("hello world");
 } )
