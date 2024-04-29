@@ -49,3 +49,8 @@ function decrementcounter(){
  //calling the function of increment and decrement 
 incrementBtn.addEventListener('click',incrementcounter)
 decrementBtnn.addEventListener('click',decrementcounter)
+const hello = document.querySelector("#hello");
+
+hello.addEventListener('click',()=>{
+alert("hello world");
+} )
