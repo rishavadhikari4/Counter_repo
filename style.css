@@ -5,3 +5,9 @@
 .yellow{
     background-color: yellow;
 }
+#increment{
+    background-color: blue;
+}
+#decrement{
+    background-color: blueviolet;
+}
