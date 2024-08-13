@@ -30,7 +30,7 @@ const incrementcounter = () =>{
     li.appendChild(textNode)
     ulElement.appendChild(li)
 }
-//making the decrement function
+//making the decrement function without arrow function
 function decrementcounter(){
     //catching the attribute of the li element
     const li = ulElement.querySelector('[data-counter="'+counter+'"]')
